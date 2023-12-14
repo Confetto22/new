@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Rufina:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap');
+
+
+
+
+*{
+    margin: 0 auto;
+}
+p, h6 , button{
+    font-family: 'Work sans';
+}
+
+h2{
+    font-family: 'crimson text';
+    font-weight: bolder;
+    font-size: 35px;
+}
+li{
+    list-style: none;
+}
+button{
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #cc69a3;
+    cursor: pointer;
+    
+}
+button:active{
+    opacity: 0.4;
+}
+header{
+    background-color: #74C69D;
+}
+.logo ul{
+    display: flex;
+        align-items: center;
+}
+header .logo img{
+    width: 50px;
+    height: 48.31px;
+    margin: 0;
+    
+}
+header nav li{
+    color: #fff;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.list{
+    height: 2rem;
+    margin-right: 2rem;
+    transition: 0.3s;
+}
+.list:hover{
+    background-color: #a356ad;
+    cursor: pointer;
+}
+.menu ul li a{
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: #a356ad;
+}
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    margin: 0;
+}
+
+.section-1{
+    background-color: #74C69D;
+}
+ .section-1 img {
+     width: 100%;
+ }
+ .section1-text h6, .section-2 h6{
+    font-size: 15px;
+    letter-spacing: 0.4rem;
+ }
+ 
+.section1-text h6,
+.section1-text h2,
+.section1-text p {
+    color: #fff;
+}
+.section1-text button{
+    height: 2.6rem;
+    width: 9rem;
+    border: none;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    font-size: 18px;
+}
+
+.section-2 h6{
+    font-size: 15px;
+    color:#74C69D ;
+    margin-top: 1.4rem;
+    text-align: center;
+}
+.section-2 h2{
+    text-align: center;
+    margin-top: 0.6rem;
+}
+.section-2 p{
+    font-size: 20px;
+    text-align: center;
+    max-width: 280px;
+    margin: 2rem auto;
+    line-height: 2rem;
+}
+.section2-logos img{
+    transition: 0.3s;
+}
+.section2-logos img:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.learn{
+    background-color: #111111ee;
+    color: #fff;
+    display: block;
+    margin: 3rem auto;
+    height: 2.8rem;
+        width: 11rem;
+        border: none;
+        
+        border-radius: 0.25rem;
+        font-size: 18px;
+}
+.learn:hover{
+    cursor: pointer;
+    background-color: #0c80b6f1;
+    color: #fff;
+}
+.learn:active{
+    opacity: 0.6;
+}
+
+.div-1, .div-2{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    
+}
+
+.div-1 h2, .div-1 p, .div-1 button{
+    margin: 1rem 0;
+}
+.div-1 p, .div-2 p{
+    color: #00000088;
+}
+
+
+
+.team h2, .team h6, .team p{
+    text-align: center;
+    margin: 1rem 0;
+}
+.team h6{
+    color: #74C69D;
+    font-size: 15px;
+}
+.team p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team-text .team-image{
+    background-color: #fff;
+    margin: 1rem auto;
+    border-radius: 0.2rem;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    
+}
+.team-text .team-image:hover{
+    transform: translateY(-14px);
+    cursor: pointer;
+}
+.team-text .team-image img{
+    border: 2px solid black;
+    height: 10.7rem;
+    border-radius: 50%;
+    
+}
+.team-caption h3{
+    font-weight: bold;
+    text-align: left;
+    margin: 1rem 0;
+    font-size: 22px;
+
+}
+.team-caption p {
+    font-size: 2px;
+    text-align: left;
+    margin: 1rem 0;
+    font-weight: lighter;
+    font-size: 14px;
+    
+
+}
+
+footer{
+    background-color: #74C69D;
+    display: flex;
+}
+.footer-socials {
+    width: 70%;
+}
+.socials-list img{
+    transition: 0.3s;
+}
+.socials-list img:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+   
+    .menu{
+        display: none;
+    }
+    header .logo img {
+            width: 40px;
+            height: 48.31px;
+            margin-right: 0;
+        }
+    .section-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-1 img{
+        width: 85%;
+        margin: 2rem auto;
+    }
+    .section1-text{
+        width: 85%;
+            margin: 0 auto;
+    }
+    .section1-text h6, .section1-text h2, .section1-text p{
+        margin: 1rem 0;
+    }
+
+        .section2-logos { 
+            justify-content: center;
+                flex-direction: column;
+                    display: flex;
+                        width: 100%;
+               }
+               .section2-logos img{
+                    margin: 1.3rem auto;
+                        width: 47%;
+               }
+
+               .div-1 img, .div-2 img{
+                width: 100%;
+                margin: 1.4rem 0;
+               }
+               .work-section{
+                width: 80%;
+                
+               }
+               .team-text{
+                    display: grid;
+                        grid-template-columns: 1fr;
+                        gap: 2rem;
+               }
+              
+               footer{
+                flex-direction: column;
+                
+               }
+               
+               .socials-list{
+                display: flex;
+                width: 75%; 
+                margin: 1rem 0;
+               }
+               .socials-list img{
+                margin: 0 0.4rem;
+               }
+               .copyright p{
+                margin: 1.5rem 0;
+                color: #fff;
+                font-size: 20px;
+               }
+               
+}
+@media only screen and (min-width:600px){
+    .menu {
+            display: none;
+        }
+    
+        header .logo img {
+            width: 40px;
+            height: 48.31px;
+            margin-right: 0;
+        }
+    
+        .section-1 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .section-1 img {
+            width: 85%;
+            margin: 2rem auto;
+        }
+    
+        .section1-text {
+            width: 85%;
+            margin: 0 auto;
+        }
+    
+        .section1-text h6,
+        .section1-text h2,
+        .section1-text p {
+            margin: 1rem 0;
+        }
+    
+    .section2-logos{
+            display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+    }
+        #spotify {
+            grid-column: 1 / span 2;
+            width: 50%;
+            margin: 0 auto;
+            width: 13rem;
+        }
+    .team-text{
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+    }
+    
+
+        .div-1 img,
+        .div-2 img {
+            width: 100%;
+            margin: 1.4rem 0;
+        }
+    
+        .work-section {
+            width: 80%;
+    
+        }
+        .footer-socials{
+            width: 70%;
+        }
+    .socials-list{
+            
+                margin: 3rem 0;
+                display: flex;
+                
+    }
+    .socials-list img{
+        margin: 0 0.5rem;
+    }
+    .copyright{
+            width: 100%;
+    }
+    .copyright p{
+            margin: 3rem;
+                max-width: 100%;
+                color: #fff;
+                text-align: right;
+                font-size: 18px;
+    }
+
+   
+    
+}
+@media only screen and (max-width:768px){
+    .work-text button{
+        margin: 2rem auto;
+    }
+    .team-image{
+        width: 15rem;
+    }
+    .team-text .team-image img{
+        margin: 0 1.9rem;
+            margin-top: 1.4rem;
+    }
+    .team-caption{
+        margin-left: 14%;
+    }
+    
+    .socials-list{
+        
+            display: flex;
+            
+    }
+}
+
+@media only screen and (min-width:768px){
+  
+    .logo{
+        width: 26%;
+    margin-left: 1rem;
+    }
+    .menu{
+        display: flex;
+        margin: 2rem 0;
+        margin-right: 2rem;
+        
+    }
+    .menu li{
+        font-size: 18px;
+        margin: 0 1rem;
+        
+    }
+    .menu ul{
+        display: flex;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .list{
+        display: none;
+    }
+    
+    .section-1{
+        display: flex;
+    padding-right: 3rem;
+    padding-left: 5rem;
+            flex-direction: row;
+        
+    }
+
+    .section1-text{
+       
+        margin: auto;
+            max-width: 330px;
+    }
+    .section1-text h2{
+        margin-bottom: 1rem;
+    }
+    .section1-text p{
+        margin-bottom: 1.4rem;
+    }
+    .section-1 img{
+        width: 50%;
+        height: 30rem;
+        height: 100%;
+    }
+
+        .section2-logos {
+            display: flex;
+                flex-direction: row;
+                width: 85%;
+                justify-content:
+                space-evenly;
+                margin-left: 10%;
+        }
+
+        .section-2 p{
+                max-width: 460px;
+                margin-bottom: 3rem;
+        }
+        .section2-logos img{
+            min-width: 100px;
+        }
+   .div-1{
+    flex-direction: row;
+   
+   }
+   .div-1 img{
+        width: 53%;
+        margin-right: 6rem;
+   }
+   .work-text{
+        margin: 6rem 0;
+   }
+
+   .div-2 {
+       flex-direction: row-reverse;
+
+       
+       
+   }
+   .work-text .learn{
+    display: inline-block;
+   }
+   .div-2 img {
+       width: 53%;
+       margin-left: 6rem;
+    }
+    .div-2 .work-text{
+        margin-top: 10rem;
+    }
+    .team-image{
+           
+    }
+    .team p{
+        max-width: 460px;
+    }
+    .team-text{
+            display: grid;
+                width: 95%;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 1rem;
+    }
+    .team-text .team-image img{
+            margin-top: 1.4rem;
+    }
+    .socials-list{
+            width: 24%;
+                margin: 3rem;
+                display: flex;
+                margin-left: 6rem;
+    }
+    .copyright p{
+        margin: 3rem;
+        max-width: 100%;
+        color: #fff;
+        text-align: right;
+        font-size: 18px;
+    }
+        .team-image img {
+           
+            
+            height: 8.7rem;
+        }
+                .team-text .team-image img{
+                    height: 8.7rem;
+                    display: block;
+                }
+                .team-text .team-image{
+                    margin: 1rem 0;
+                    width: 87%;
+                        height: 17rem;
+                   
+                }
+                .team-caption{
+                        margin-left: 15%;
+                }
+                .team-caption h3{
+                    margin-top: 1rem;
+                    margin-bottom: 0;
+                }
+                
+}                   
